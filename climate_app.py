@@ -50,10 +50,10 @@ def welcome():
         f"<a href='/api/v1.0/tobs'>/api/v1.0/tobs</a><br/><br/><br/><br/>"
 
         f"<h3>START DATE:</h3><br/>"
-        f"/api/v1.0/temp/MM-DD-YYYY<br/><br/><br/><br/>"
+        f"/api/v1.0/temp/YYYY-MM-DD<br/><br/><br/><br/>"
 
         f"<h3>START DATE & END DATE:</h3><br/>"
-        f"/api/v1.0/temp/MM-DD-YYYY/MM-DD-YYYY"
+        f"/api/v1.0/temp/YYYY-MM-DD/YYYY-MM-DD"
     )
 
 ##########################################################################################
