@@ -21,11 +21,11 @@ Here Python and SQLAlchemy is used to do basic climate analysis and data explora
 
 * Query results are stored into a Pandas DataFrame and set the index to the date column. And results are ploted
 
-![precipitation](C:/Users/Uzma/Home_Work_Repo_Folder/sqlalchemy-challenge/image_folder/prcp.png)
+![precipitation](image_folder/prcp.png)
 
 * The summary statistics for the precipitation data is calculated using pandas.
 
-![summary statistics](sqlalchemy-challenge/image_folder/describe.PNG)
+![summary statistics](image_folder/describe.PNG)
 
 ### Station Analysis
 
@@ -42,7 +42,7 @@ Here Python and SQLAlchemy is used to do basic climate analysis and data explora
 
   * The results as a histogram with `bins=12` is plotted.
 
-    ![station-histogram](sqlalchemy-challenge/image_folder/Temps.png)
+    ![station-histogram](image_folder/Temps.png)
 
 - - -
 
@@ -71,9 +71,9 @@ Here a Flask API is designed based on the queries and routes are created.
   
   * Returns a JSONified dictionary of these minimum, maximum, and average temperatures.
 
-![climate_app](sqlalchemy-challenge/image_folder/app.PNG)
+![climate_app](image_folder/app.PNG)
 
-![stations fetched](sqlalchemy-challenge/image_folder/stations.PNG)
+![stations fetched](image_folder/stations.PNG)
 
 
 ## Bonus Analyses:
