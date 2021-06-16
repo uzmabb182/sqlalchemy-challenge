@@ -21,7 +21,7 @@ Here Python and SQLAlchemy is used to do basic climate analysis and data explora
 
 * Query results are stored into a Pandas DataFrame and set the index to the date column. And results are ploted
 
-  ![precipitation](sqlalchemy-challenge/image_folder/prcp.png)
+![precipitation](C:/Users/Uzma/Home_Work_Repo_Folder/sqlalchemy-challenge/image_folder/prcp.png)
 
 * The summary statistics for the precipitation data is calculated using pandas.
 
